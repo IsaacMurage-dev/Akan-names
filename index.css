@@ -1,0 +1,16 @@
+.navbar{
+	padding-top: 10px;
+	padding-left: 5%;
+	font-size: xx-large;	
+}
+
+em{
+	color: red;
+	
+}
+span{
+	color: #ffff00;
+}
+strong{
+	color: green;
+}
