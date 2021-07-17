@@ -8,14 +8,36 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-	<nav class="navbar">
+	<div class="navbar">
         <h2 class="logo"><em>Akan</em> <span>Name</span> <strong>Generator</strong></h2>
-    </nav>
-	<div class="Akan">
+	</div>
+
+	  <div class="Akan">
 	<h3> Did you know that Akans are a meta-ethnicity who primarily live in Ghana? Here is a snippet;</h3>
       <p>They are known for their unique naming system which is based on the day in the week a child is born </p>
 	  <h4>Well,let's travel to Ghana and get you a Ghanaian name,shall we?</h4>
+	 </div>
 
+	 <div class="keyin">
+		<h3>Key in your birth details</h3>
+				<form class="form">
+					<fieldset>
+						<label>Date Of Birth</label><br> 
+						<input type="number" id="DD"  class="in" maxlength="2" placeholder="Date">
+					<fieldset>
+						<label>Month</label><br>
+						<input type="number" id="MM" class="in" maxlength="2" placeholder="Month">
+					</fieldset>
+					<fieldset>
+						<label>Year of birth</label><br> eg 1995
+						<input type="number" id="YY" class="in" maxlength="4" placeholder="Year" min="0000">
+					</fieldset>
+					<input type="radio" name="gender" id="maleGender" value="male"> Male<br>
+					<input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
+					<button type="button" onclick="akanName()">Generate</button>
+					<button type="reset" name="refresh">Clear</button> 
+			 </form>
+			</div>
 
 
 

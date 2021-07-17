@@ -19,3 +19,13 @@ strong{
 	top: 15%;
 	left: 13%;	
 }
+.keyin{
+	display: table-cell;
+	align-items: center;
+
+}
+form{
+	width: 90%;
+
+	max-width: 600px;
+}
