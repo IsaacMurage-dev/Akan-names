@@ -1,6 +1,6 @@
 .navbar{
-	padding-top: 10px;
-	padding-left: 5%;
+	padding-top: 5px;
+	padding-left: 20%;
 	font-size: xx-large;	
 }
 
@@ -13,4 +13,9 @@ span{
 }
 strong{
 	color: green;
+}
+.Akan{
+	position: absolute;
+	top: 15%;
+	left: 13%;	
 }
