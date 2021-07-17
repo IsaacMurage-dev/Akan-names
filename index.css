@@ -1,3 +1,4 @@
+
 .navbar{
 	padding-top: 0px;;
 	font-size: xx-large;
@@ -30,4 +31,5 @@ h5{
 	position: relative;
 	left: 30%;
 	width: 40%;	
+	height: 70vh;
 }
