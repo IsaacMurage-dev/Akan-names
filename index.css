@@ -2,8 +2,8 @@
 body{
 	background-size: cover;
 	background-image: url(./Assets/ghanachildren.jpg);
-	background-color:#D7C49EFF;
-	background-blend-mode:screen;
+	background-color:rgb(245, 237, 202);
+	background-blend-mode: soft-light;
 
 		
 	
