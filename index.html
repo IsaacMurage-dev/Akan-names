@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,43 +11,52 @@
 		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 	<div class="navbar">
-        <h2 class="logo"><i class="fas fa-star"></i><em>Akan</em> <span>Name</span> <strong>Generator</strong><i class="fas fa-star"></i></h2>
+		<h2 class="logo"><i class="fas fa-star"></i><em>Akan</em> <span>Name</span> <strong>Generator</strong><i
+				class="fas fa-star"></i></h2>
 	</div>
 
-	  <div class="Akan">
-		<marquee width="50%" direction="left" height="60px" scrollamount="4"><h3>Did you know that Akans are a meta-ethnicity who primarily live in Ghana? <i class="fas fa-smile-beam"></i>Here is a snippet;</h3></marquee>
-	
-      <p>They are known for their unique naming system which is based on the day of the week a child is born.<br>This naming system is shared throughout West Africa and the African diaspora. </p>
-	  <h4>Let's travel to Ghana and get you a Ghanaian name,shall we?</h4>
-	  <p>The data form below displays your Akan name upon inserting birth details correctly.<br></p>
-	 </div>
+	<div class="Akan">
+		<marquee width="50%" direction="left" height="60px" scrollamount="4">
+			<h3>Did you know that Akans are a meta-ethnicity who primarily live in Ghana? <i
+					class="fas fa-smile-beam"></i>Here is a snippet;</h3>
+		</marquee>
 
-	 
+		<p>They are known for their unique naming system which is based on the day of the week a chld is born.<br>Children are thus given their first name depending on the particular day they were born<br>This naming system is shared throughout West Africa and the African diaspora.</p>
+		
+		<h4>Let's travel to Ghana and get you a Ghanaian name,shall we?</h4>
+		<p>The data form below outputs your Akan name upon inserting birth details correctly.<br></p>
+	</div>
 
-	 <div class="keyin">
+
+
+	<div class="keyin">
 		<h5><strong>Key in your birth details</strong></h5>
-				<form id="myForm" class="form">
-					<fieldset>
-						<label>Date Of Birth</label><br> 
-						<input type="number" id="DD"  class="in" maxlength="2" placeholder="Date" max="31" min="01">
-					</fieldset>
-					<fieldset>
-						<label>Month</label><br>
-						<input type="number" id="MM" class="in" maxlength="2" placeholder="Month"max="12" min="01">
-					</fieldset>
-					<fieldset>
-						<label>Year of birth</label><br> eg 1995
-						<input type="number" id="YY" class="in" maxlength="4" placeholder="Year" min="0000">
-					</fieldset>
-					<input type="radio" name="gender" id="maleGender" value="male"> Male<br>
-					<input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
-					<button type="button" onclick="akanName()">Generate</button>
-					<button type="reset" name="refresh">Clear</button> 
-			 </form>
-			</div>
-	<script src="JS/index.js"></script>  
+		<form id="myForm" class="form">
+			<fieldset>
+				<label>Date Of Birth</label><br>
+				<input type="number" id="DD" class="in" maxlength="2" placeholder="Date" max="31" min="01">
+			</fieldset>
+			<fieldset>
+				<label>Month</label><br>
+				<input type="number" id="MM" class="in" maxlength="2" placeholder="Month" max="12" min="01">
+			</fieldset>
+			<fieldset>
+				<label>Year of birth</label><br> eg 1995
+				<input type="number" id="YY" class="in" maxlength="4" placeholder="Year" min="0000">
+			</fieldset>
+			<input type="radio" name="gender" id="maleGender" value="male"> Male<br>
+			<input type="radio" name="gender" id="femaleGender" value="female"> Female<br>
+			<button type="button" onclick="akanName()">Generate</button>
+			<button type="reset" name="refresh">Clear</button>
+		</form>
+	</div>
+	<script src="JS/index.js"></script>
 </body>
-<footer><p>Copyright &copy;2021. All Rights Reserved</p></footer>
+<footer>
+	<p>Copyright &copy;2021. All Rights Reserved</p>
+</footer>
+
 </html>
