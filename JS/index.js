@@ -4,3 +4,14 @@
 var maleNames = [ "Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+// conversion
+function akanName() {
+    var dd = parseInt(document.getElementById("DD").value);
+    var mm = parseInt(document.getElementById("MM").value);
+    var yy = parseInt(document.getElementById("YY").value);
+    var femaleGender = document.getElementById("femaleGender");
+    var maleGender = document.getElementById("maleGender");
+
+	var date = new Date(yy + "-" + mm + "-" + dd);
+    var dayBorn = date.getDay();
