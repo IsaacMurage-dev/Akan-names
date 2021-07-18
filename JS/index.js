@@ -23,3 +23,5 @@ function akanName() {
 	if (mm < 1 || mm > 12) {
 		alert("Enter valid month");
 	  }
+	  if (yy.toString().length !== 4) {
+		alert("Enter a valid year");
