@@ -31,3 +31,11 @@ function akanName() {
 			daysOfTheWeek[dayBorn] +
 			" and your Akan name is " +
 			maleNames[dayBorn]); 
+		} else if (femaleGender.checked) {
+			alert(
+				"Your day of birth is, " + 
+				daysOfTheWeek[dayBorn] + 
+				"and your Akan name is " +
+				femaleNames[dayBorn]);
+		}
+	}
