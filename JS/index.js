@@ -18,24 +18,26 @@ function akanName() {
     var dayBorn = date.getDay();
 // logical operator
 	if (dd < 1 || dd > 31) {
-		alert("Enter a valid day!");
+		alert("Please insert a valid Day Date!");
 	  }
 	if (mm < 1 || mm > 12) {
-		alert("Enter valid month");
+		alert("Please enter a valid Month Date!");
 	  }
 	  if (yy.toString().length !== 4) {
-		alert("Enter a valid year");
+		alert("Please insert a valid Year Date!");
+
+		// operator2
 	} else if (maleGender.checked) {
 		alert(
-		  "Your day of birth is, " +
+		  "Hello, your were born on " +
 			daysOfTheWeek[dayBorn] +
 			" and your Akan name is " +
 			maleNames[dayBorn]); 
 		} else if (femaleGender.checked) {
 			alert(
-				"Your day of birth is, " + 
+				"Hello, you were born on " + 
 				daysOfTheWeek[dayBorn] + 
-				"and your Akan name is " +
+				" and your Akan name is " +
 				femaleNames[dayBorn]);
 		}
 	}
