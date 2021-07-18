@@ -16,7 +16,7 @@ function akanName() {
 
 	var date = new Date(yy + "-" + mm + "-" + dd);
     var dayBorn = date.getDay();
-// logical operator
+// conditional 1
 	if (dd < 1 || dd > 31) {
 		alert("Please insert a valid Day Date!");
 	  }
@@ -25,19 +25,19 @@ function akanName() {
 	  }
 	  if (yy.toString().length !== 4) {
 		alert("Please insert a valid Year Date!");
-
-		// operator2
+// conditional 2
 	} else if (maleGender.checked) {
 		alert(
-		  "Hello, your were born on " +
+		  "Hello, you were born on a " +
 			daysOfTheWeek[dayBorn] +
 			" and your Akan name is " +
 			maleNames[dayBorn]); 
 		} else if (femaleGender.checked) {
 			alert(
-				"Hello, you were born on " + 
+				"Hello, you were born on a " + 
 				daysOfTheWeek[dayBorn] + 
 				" and your Akan name is " +
 				femaleNames[dayBorn]);
 		}
 	}
+	// leap year calculation
