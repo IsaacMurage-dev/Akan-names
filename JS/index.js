@@ -20,3 +20,6 @@ function akanName() {
 	if (dd < 1 || dd > 31) {
 		alert("Enter a valid day!");
 	  }
+	if (mm < 1 || mm > 12) {
+		alert("Enter valid month");
+	  }
