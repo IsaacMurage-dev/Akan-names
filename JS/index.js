@@ -16,7 +16,7 @@ function akanName() {
 
 	var date = new Date(yy + "-" + mm + "-" + dd);
     var dayBorn = date.getDay();
-
+// logical operator
 	if (dd < 1 || dd > 31) {
 		alert("Enter a valid day!");
 	  }
@@ -25,3 +25,9 @@ function akanName() {
 	  }
 	  if (yy.toString().length !== 4) {
 		alert("Enter a valid year");
+	} else if (maleGender.checked) {
+		alert(
+		  "Your day of birth is, " +
+			daysOfTheWeek[dayBorn] +
+			" and your Akan name is " +
+			maleNames[dayBorn]); 
